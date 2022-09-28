@@ -1,0 +1,22 @@
+@media screen and (max-width: 425px) {
+    .servicos {
+        margin: 5% 8% 0% 8%;
+        display: block;
+        width: auto;
+    }
+
+    .servicos2 {
+        margin: 0% 8% 5% 8%;
+        display: block;
+    }
+
+    .direita {
+        border-radius: 0;
+        width: auto;
+    }
+
+    .esquerda {
+        border-radius: 0px 0px 10px 10px;
+        width: auto;
+    }
+}

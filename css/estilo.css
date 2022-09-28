@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    background: hsl(204, 43%, 93%);
+}
+
+.servicos {
+    margin: 10% 25% 0% 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+h2 {
+    color: hsl(71, 73%, 54%);
+}
+
+.servicos2 {
+    margin: 0% 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.direita {
+    margin: 0;
+    width: 50%;
+    padding: 35px;
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    border-radius: 0px 0px 0px 10px;
+}
+
+.dolar {
+    font-size: 25px;
+    display: inline-block;
+}
+
+.mes {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.esquerda {
+    margin: 0;
+    width: 50%;
+    padding: 35px;
+    background-color: hsl(179, 51%, 51%);
+    color: white;
+    border-radius: 0px 0px 10px 0px;
+}
+
+.botao {
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
